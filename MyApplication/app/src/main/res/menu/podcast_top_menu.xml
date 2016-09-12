@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pod_top_cast"
+        android:icon="@drawable/cast"
+        android:title="Cast"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/pod_top_plus"
+        android:title="Add"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/pod_top_more"
+        android:title="More..."
+        android:icon="@drawable/ic_more_horiz_black_24dp"
+        app:showAsAction="always"/>
+
+</menu>

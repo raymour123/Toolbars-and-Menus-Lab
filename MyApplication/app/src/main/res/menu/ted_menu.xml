@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/ted_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Cast"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/ted_bookmark"
+        android:title="Add"
+        android:icon="@drawable/ic_bookmark_grey"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/ted_download"
+        android:title="More..."
+        android:icon="@drawable/ic_get_app_black_24dp"
+        app:showAsAction="always"/>
+
+</menu>

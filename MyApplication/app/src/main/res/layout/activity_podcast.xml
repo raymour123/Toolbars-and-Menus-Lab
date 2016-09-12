@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PodcastActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/podcast_toolbarTop"
+        android:background="#db3236"
+        android:elevation="4dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/podcast_toolbarBottom"
+        android:background="#674ea6"
+        android:elevation="4dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:src="@android:drawable/ic_media_play"
+                android:id="@+id/pod_playButton"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pod_titleTrack"
+                android:text="Inifite Guest Everything Feed"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/pod_playButton"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TBTL #1810: Cash Rules Some Thin..."
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/pod_playButton"
+                android:layout_below="@+id/pod_titleTrack"/>
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="4dp"
+                android:src="@android:drawable/alert_light_frame"
+                android:layout_alignParentRight="true"
+                android:id="@+id/pod_album"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+</RelativeLayout>
